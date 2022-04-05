@@ -21,6 +21,7 @@ const Groups = () => {
           top: '50%',
           left: '50%',
           right: 'auto',
+
       }
   }
 
@@ -111,6 +112,7 @@ const Groups = () => {
                 <Modal
                  isOpen={modalIsOpen}
                  onRequestClose={handleCloseModal}
+                 style={customStyles}
                 >
                     <h1>Sou um Modal</h1>
                     <button onClick={handleCloseModal}>Close</button>
@@ -122,6 +124,14 @@ const Groups = () => {
             <p className="country">
               {item.time} {item.flag}
               <span className="seeMore" onClick={handleOpenModal}>ver mais</span>
+              <Modal
+                 isOpen={modalIsOpen}
+                 onRequestClose={handleCloseModal}
+                 style={customStyles}
+                >
+                    <h1>Sou um Modal</h1>
+                    <button onClick={handleCloseModal}>Close</button>
+                </Modal>
             </p>
           ))}
         {selectGroup === "grupo_C" &&
@@ -129,6 +139,14 @@ const Groups = () => {
             <p className="country">
               {item.time} {item.flag}
               <span className="seeMore" onClick={handleOpenModal}>ver mais</span>
+              <Modal
+                 isOpen={modalIsOpen}
+                 onRequestClose={handleCloseModal}
+                 style={customStyles}
+                >
+                    <h1>Sou um Modal</h1>
+                    <button onClick={handleCloseModal}>Close</button>
+                </Modal>
             </p>
           ))}
         {selectGroup === "grupo_D" &&
@@ -136,6 +154,14 @@ const Groups = () => {
             <p className="country">
               {item.time} {item.flag}
               <span className="seeMore" onClick={handleOpenModal} >ver mais</span>
+              <Modal
+                 isOpen={modalIsOpen}
+                 onRequestClose={handleCloseModal}
+                 style={customStyles}
+                >
+                    <h1>Sou um Modal</h1>
+                    <button onClick={handleCloseModal}>Close</button>
+                </Modal>
             </p>
           ))}
         {selectGroup === "grupo_E" &&
@@ -143,6 +169,14 @@ const Groups = () => {
             <p className="country">
               {item.time} {item.flag}
               <span className="seeMore" onClick={handleOpenModal}>ver mais</span>
+              <Modal
+                 isOpen={modalIsOpen}
+                 onRequestClose={handleCloseModal}
+                 style={customStyles}
+                >
+                    <h1>Sou um Modal</h1>
+                    <button onClick={handleCloseModal}>Close</button>
+                </Modal>
             </p>
           ))}
         {selectGroup === "grupo_F" &&
@@ -150,6 +184,14 @@ const Groups = () => {
             <p className="country">
               {item.time} {item.flag}
               <span className="seeMore" onClick={handleOpenModal}>ver mais</span>
+              <Modal
+                 isOpen={modalIsOpen}
+                 onRequestClose={handleCloseModal}
+                 style={customStyles}
+                >
+                    <h1>Sou um Modal</h1>
+                    <button onClick={handleCloseModal}>Close</button>
+                </Modal>
             </p>
           ))}
         {selectGroup === "grupo_G" &&
@@ -157,6 +199,14 @@ const Groups = () => {
             <p className="country">
               {item.time} {item.flag}
               <span className="seeMore" onClick={handleOpenModal}>ver mais</span>
+              <Modal
+                 isOpen={modalIsOpen}
+                 onRequestClose={handleCloseModal}
+                 style={customStyles}
+                >
+                    <h1>Sou um Modal</h1>
+                    <button onClick={handleCloseModal}>Close</button>
+                </Modal>
             </p>
           ))}
         {selectGroup === "grupo_H" &&
@@ -164,6 +214,14 @@ const Groups = () => {
             <p className="country">
               {item.time} {item.flag}
               <span className="seeMore" onClick={handleOpenModal}>ver mais</span>
+              <Modal
+                 isOpen={modalIsOpen}
+                 onRequestClose={handleCloseModal}
+                 style={customStyles}
+                >
+                    <h1>Sou um Modal</h1>
+                    <button onClick={handleCloseModal}>Close</button>
+                </Modal>
             </p>
           ))}
       </div>
